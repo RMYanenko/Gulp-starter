@@ -5,11 +5,12 @@
     })
 
     <body>
-        @@include('html/_header.html')
+        @@include('html/_header.html', {})
         <main>
             <img src="@img/logo.png" alt="" srcset="">
         </main>
-        @@include('html/_footer.html')
-    </body>
+        @@include('html/_footer.html', {})
 
+        <script src="js/app.min.js"></script>
+    </body>
 </html>
