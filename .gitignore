@@ -4,3 +4,5 @@ yarn.lock
 process.json
 dist
 version.json
+*jpg
+*png
